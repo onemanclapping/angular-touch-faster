@@ -10,8 +10,10 @@ module.exports = function(config) {
       'src/**/*.js',
       'tests/**/*.js'
     ],
-    preprocessors: {},
-    reporters: ['spec'],
+    preprocessors: {
+      'src/**/*.js': 'coverage'
+    },
+    reporters: ['coverage', 'spec'],
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,

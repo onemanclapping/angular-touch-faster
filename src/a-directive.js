@@ -23,7 +23,7 @@ angular.module('ngTouchFaster').directive('a', [
 					if (attrs.href) {
 						$window.location.href = attrs.href;
 					}
-				});				
+				});
 			}
 		}
 	}]);
