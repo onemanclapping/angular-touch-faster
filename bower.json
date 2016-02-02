@@ -1,10 +1,18 @@
 {
   "name": "angular-touch-faster",
-  "version": "0.0.1",
-  "main": "./dist/angular-touch-faster.js",
+  "description": "Set of directives to accelerate angular mobile apps even further",
+  "main": "dist/angular-touch-faster.js",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git://github.com/onemanclapping/angular-touch-faster.git"
-  }
+  },
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-touch": "1.4.x"
+  },
+  "keywords": [
+    "angular",
+    "angular-touch"
+  ]
 }
