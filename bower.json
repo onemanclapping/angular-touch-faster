@@ -1,0 +1,10 @@
+{
+  "name": "angular-touch-faster",
+  "version": "0.0.1",
+  "main": "./dist/angular-touch-faster.js",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/onemanclapping/angular-touch-faster.git"
+  }
+}
